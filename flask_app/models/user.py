@@ -1,6 +1,4 @@
-from unittest import result
-from winreg import QueryInfoKey
-from mysqlconnection import connectToMySQL  # connects my database
+from flask_app.config.mysqlconnection import connectToMySQL  # connects my database
 
 
 class User:
